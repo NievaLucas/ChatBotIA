@@ -50,7 +50,7 @@ def mostrarHistorial() :
             st.markdown(mensaje["content"])
 
 def areaChat() :
-    contenedor = st.container(height = 300, border = True)
+    contenedor = st.container(height = 350, border = True)
     with contenedor :
         mostrarHistorial()
 
